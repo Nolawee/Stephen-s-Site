@@ -29,7 +29,8 @@
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
     <link href="css/bootstrap-stylecopy.css" rel="stylesheet">
     <link href="css/contact.css" rel="stylesheet">
-
+    <!-- Instagram Feed -->
+	<link href="css/insta.css" rel="stylesheet">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
 	<script type="text/javascript" src="js/modernizr.custom.js"></script>
@@ -225,14 +226,12 @@
 										
 
 										<!-- SnapWidget -->
-										<script src="http://snapwidget.com/js/snapwidget.js"></script>
-										<iframe src="http://snapwidget.com/in/?u=c3RlcGhlbmFneWVpMXxpbnwxMjV8M3w0fHxub3w1fG5vbmV8b25TdGFydHx5ZXN8eWVz&ve=131015" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
+										<div id = "insta-wrap">
+											<div id ="instafeed">
+
+											</div>
+										</div>
 									</div>
-
-							
-									
-
-									<p><a href="#">Read more</a></p>
 								</article>
 								<hr>
 								<!--
@@ -488,7 +487,15 @@
 		<!--<script type="text/javascript" src="js/contact.js"></script>-->
 
 		<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
-
+		<script type="text/javascript" src="js/instafeed.min.js"></script>
+<script type="text/javascript">
+    var userFeed = new Instafeed({
+        get: 'user',
+        userId: 1506514347,
+        accessToken: '38829124.2d24199.acaa95ceb9154457bafbd36def9dd960'
+    });
+    userFeed.run();
+</script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="js/boxlayout.js"></script>
 		<script type="text/javascript" src="js/contact.js"></script>

@@ -1,0 +1,10 @@
+#instafeed img {
+	padding: 3px;
+	opacity: 0.8;
+	filter:alpha(opacity=80);
+}
+
+#instafeed img:hover {
+	opacity: 1;
+	filter:alpha(opacity=100);	
+}
