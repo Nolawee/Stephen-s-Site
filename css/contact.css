@@ -11,6 +11,16 @@ h3 {
   color: #FFF;
 }
 
+h4{
+  margin: 0px;
+  padding: 0px;
+  color: #FFF;
+}
+div.text{
+  margin: 0px;
+  padding: 0px;
+}
+
 #twitter-widget-0 { 
       width: 100% !important; 
 }

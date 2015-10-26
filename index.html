@@ -127,6 +127,7 @@
   d.getElementsByTagName('head')[0].appendChild(s);})();
 </script>
 -->
+					<!--
 
 						<div class="col-sm-4 wow bounceInLeft">
 								<div class="service">
@@ -163,6 +164,74 @@
 									</div>
 								</div>
 							</div>
+							-->
+						<div class="span4">
+							<div class="service">
+								<div class="icon">
+									<i class="fa fa-microphone"></i>
+								</div>
+								<h4>Comedy Works South</h4>
+								<div class="text">
+									<p>October 28th. Comedy Works South. Greenwood Village, CO</p>
+								</div>
+							</div>
+						</div>
+						<div class="span4">
+							<div class="service">
+								<div class="icon">
+									<i class="fa fa-microphone"></i>
+								</div>
+								<h4>Comedy Works South</h4>
+								<div class="text">
+									<p>November 4th. Comedy Works South. Greenwood Village, CO</p>
+								</div>
+							</div>
+						</div>
+						<div class="span4">
+							<div class="service">
+								<div class="icon">
+									<i class="fa fa-microphone"></i>
+								</div>
+								<h4>Comedy Works South</h4>
+								<div class="text">
+									<p>November 17th. Comedy Works South. Greenwood Village, CO</p>
+								</div>
+							</div>
+						</div>
+						<div class="span4">
+							<div class="service">
+								<div class="icon">
+									<i class="fa fa-microphone"></i>
+								</div>
+								<h4>Loonees Comedy Corner</h4>
+								<div class="text">
+									<p>November 19th. Loonees Comedy Corner. Colorado Spring, CO</p>
+								</div>
+							</div>
+						</div>
+						<div class="span4">
+							<div class="service">
+								<div class="icon">
+									<i class="fa fa-microphone"></i>
+								</div>
+								<h4>Loonees Comedy Corner</h4>
+								<div class="text">
+									<p>November 20th. Loonees Comedy Corner. Colorado Spring, CO</p>
+								</div>
+							</div>
+						</div>
+						<div class="span4">
+							<div class="service">
+								<div class="icon">
+									<i class="fa fa-microphone"></i>
+								</div>
+								<h4>Loonees Comedy Corner</h4>
+								<div class="text">
+									<p>November 21st. Loonees Comedy Corner. Colorado Spring, CO</p>
+								</div>
+							</div>
+						</div>
+
 						<p></p>
 						<p></p>
 						<p></p>
@@ -170,19 +239,19 @@
 							<!-- /span4 -->
 							<div class="span4">
 								<ul id="bl-work-items">
-									<li data-panel="panel-2"><a href="#"><img src="images/project2.jpg" /></a></li>
+									<li data-panel="panel-2"><a href="#"><img src="images/project2.jpg" id="Imgcrop2"/></a></li>
 								</ul>
 								<p></p>							
 							</div><!-- /span4 -->
 							<div class="span4">
 								<ul id="bl-work-items" style="list-style: none;">
-									<li data-panel="panel-1"><a href="#"><img src="images/project1.png" height="940" width="566"/></iframe></a></li>
+									<li data-panel="panel-1"><a href="#"><img src="images/project1.png" /></iframe></a></li>
 								</ul>
 								<p></p>							
 							</div>
 							<div class="span4">
 								<ul id="bl-work-items">
-									<li data-panel="panel-3"><a href="#"><img src="images/project3.jpg" /></a></li>
+									<li data-panel="panel-3"><a href="#"><img src="images/project3.jpg" id="yourImgId"/></a></li>
 								</ul>
 								<p></p>							
 							</div><!-- /span4 -->
@@ -207,7 +276,7 @@
 									<h3 style="display:inline-block;">@StephenAgyei</h3>
 									<!--<img src="images/blogentry.jpg" alt=""> -->
 									<div class="row">
-										<div class="col-md-6">
+										<div class="span4">
 											<a class="twitter-timeline" href="https://twitter.com/StephenAgyei" data-widget-id="643312039687905280">Tweets by @StephenAgyei</a>
 												<script>
 										    		! function(d, s, id) {
@@ -383,20 +452,20 @@
 
 								</form>
 								-->
-								<form>
+								<form action="contact.php" method="post">
 								<div>
     								<!--<label for="fname">Name</label>-->
-    								<input id="fname" type="text" class="cool" placeholder="Name"/>
+    								<input id="c_name" type="text" class="cool" name="c_name" placeholder="Name"/>
   								</div>
 
   								<div>
 									<!--<label for="lname">Email Address</label>-->
-								    <input id="lname" type="text" class="cool" placeholder="Email Address"/>
+								    <input id="c_email" type="text" class="cool" name="c_email" placeholder="Email Address"/>
 								 </div>
 								
 								 <div>
 								 	<!--<label for="email">Your Message</label>-->
-									<textarea id="email" type="text" class="cool" placeholder="Your Message"></textarea>
+									<textarea id="c_message" type="text" class="cool" name="c_message" placeholder="Your Message"></textarea>
 									<button type="submit" class="btn btn-custom-1">
 										<i class="fa fa-envelope icon-before"></i> Send it
 									</button>
@@ -421,7 +490,8 @@
 						<div class="row-fluid">
 							<div class="span8 offset2 tweak">
 								<!--<img src="images/project1.png" />-->
-								<iframe width="884" height="551" src="https://www.youtube.com/embed/p7ZbGz2k19U" frameborder="0" allowfullscreen></iframe>
+								<img src="images/project3.jpg" />
+
 								<br>
 								<br>
 								<!-- 
@@ -453,7 +523,7 @@
 					<div data-panel="panel-3">
 						<div class="row-fluid">
 							<div class="span8 offset2 tweak">
-							<img src="images/project3.jpg" />
+							<iframe width="884" height="551" src="https://www.youtube.com/embed/p7ZbGz2k19U" frameborder="0" allowfullscreen></iframe>
 							<br>
 							<br>
 							<!--
@@ -485,14 +555,14 @@
 
 		<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
 		<script type="text/javascript" src="js/instafeed.min.js"></script>
-<script type="text/javascript">
-    var userFeed = new Instafeed({
-        get: 'user',
-        userId: 1506514347,
-        accessToken: '38829124.2d24199.acaa95ceb9154457bafbd36def9dd960'
-    });
-    userFeed.run();
-</script>
+		<script type="text/javascript">
+		    var userFeed = new Instafeed({
+		        get: 'user',
+		        userId: 1506514347,
+		        accessToken: '38829124.2d24199.acaa95ceb9154457bafbd36def9dd960'
+		    });
+		    userFeed.run();
+		</script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="js/boxlayout.js"></script>
 		<script type="text/javascript" src="js/contact.js"></script>
