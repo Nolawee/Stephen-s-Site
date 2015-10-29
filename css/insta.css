@@ -1,6 +1,9 @@
 #instafeed img {
-	padding: 3px;
+	padding: 0px;
 	opacity: 0.8;
+	width: 200px;
+  	height:200px;
+  	resolution: standard_resolution;
 	filter:alpha(opacity=80);
 }
 
@@ -8,3 +11,5 @@
 	opacity: 1;
 	filter:alpha(opacity=100);	
 }
+
+#twitter 
