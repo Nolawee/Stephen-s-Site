@@ -1,27 +1,15 @@
 <?php
 
-	// Contact
-	$to = 'nome9478@colorado.edu';
-    $subject = 'Subject here...';
+session_start();
 
-	if(isset($_POST['c_name']) && isset($_POST['c_email']) && isset($_POST['c_message'])){
-   		$name    = $_POST['c_name'];
-    	$from    = $_POST['c_email'];
-    	$message = $_POST['c_message'];
+require_once 'libs/PHPMailer/PHPMailerAutoload.php';
 
-		if (mail($to, $subject, $message, $from)) { 
-			$result = array(
-				'message' => 'Thanks for contacting us!',
-				'sendstatus' => 1
-				);
-			echo json_encode($result);
-		} else { 
-			$result = array(
-				'message' => 'Sorry, something is wrong',
-				'sendstatus' => 1
-				);
-			echo json_encode($result);
-		} 
-	}
+$errors = [];
+
+print_r($_POST)
+
+if(isset($_POST['name'])) {
+
+}
 
 ?>
