@@ -89,7 +89,7 @@ a:hover {
 .bl-main > section:nth-child(2) {
 	top: 0;
 	left: 50%;
-	background: url('../images/back3.jpg') no-repeat; 
+	background: url('../images/back5.jpg') no-repeat; 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -109,7 +109,7 @@ a:hover {
 .bl-main > section:nth-child(4) {
 	top: 50%;
 	left: 50%;
-	background: url('../images/back5.jpg') no-repeat; 
+	background: url('../images/back3.jpg') no-repeat; 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -453,13 +453,13 @@ div.bl-panel-items > div.bl-hide-current-work {
 	background: #B47818;
 }
 .bl-main > section:nth-child(2).bl-expand {
-	background: #90B0E8;
+	background: #030303;
 }
 .bl-main > section:nth-child(3).bl-expand {
 	background: #D65441;
 }
 .bl-main > section:nth-child(4).bl-expand {
-	background: #030303;
+	background: #90B0E8;
 }
 
 .bl-main.bl-expand-item > section:not(.bl-expand),

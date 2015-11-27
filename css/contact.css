@@ -25,6 +25,9 @@ div.text{
   margin: 0px;
   padding: 0px;
 }
+placeholder.text{
+  color: #FFF;
+}
 
 #twitter-widget-0 { 
       width: 100% !important; 
@@ -60,7 +63,7 @@ textarea[type=text] {
   padding: 20px;
   border: 1px solid white;
   font-size: 20px;
-  background-color: black;
+  background-color: #90B0E8;
   color: white;
 }
 
@@ -121,7 +124,7 @@ textarea[type=text] {
   background: transparent;
   border: 2px solid #FFF;
   padding: 15px 25px;
-  color: #AAA;
+  color: #FFF;
 }
 
 .btn-custom-2 {
@@ -129,9 +132,9 @@ textarea[type=text] {
 }
 
 .btn-custom-1:hover, .btn-custom-1:focus, .btn-custom-1:active, .btn-custom-1.active {
-  background: #000;
+  background: #FFF;
   border: 2px solid #FFF;
-  color: #FFF;
+  color: #AAA;
 }
 
 .btn-custom-2:hover, .btn-custom-2:focus, .btn-custom-2:active, .btn-custom-2.active {
@@ -150,7 +153,7 @@ input[type=text] {
   padding: 20px;
   border: 1px solid white;
   font-size: 20px;
-  background-color: black;
+  background-color: #90B0E8;
   color: white;
 }
 
