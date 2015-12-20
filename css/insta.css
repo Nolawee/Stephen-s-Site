@@ -1,5 +1,5 @@
 #instafeed img {
-	position: relative;
+	position: 500px;
 	opacity: 0.8;
 	width: 225px;
   	height:200px;
@@ -16,6 +16,6 @@
 
 
 #twitter {
-	position: relative;
+	position: 50px;
 	height: 750px;
 }
