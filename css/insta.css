@@ -1,7 +1,8 @@
 #instafeed img {
-	position: 500px;
+	position: relative;
+	left: 130px;
 	opacity: 0.8;
-	width: 225px;
+	width: 200px;
   	height:200px;
   	resolution: standard_resolution;
 	filter:alpha(opacity=80);
@@ -16,6 +17,7 @@
 
 
 #twitter {
-	position: 50px;
+	position: relative;
+	left: 250px;
 	height: 750px;
 }
