@@ -6,7 +6,7 @@ module.exports = function(grunt){
 				separator: ';',
 			},
 			js: {
-	    		src: ['assets/js/appear.js', 'assets/js/contact.js', 'assets/js/custom.js', 'assets/js/gmaps.js', 'assets/js/custom.js', 'assets/js/custom.js'],
+	    		src: ['assets/js/*.js'],
 	    		dest: 'assets/js/website.js',
 	    	},
 	  	},
