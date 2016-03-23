@@ -2,7 +2,7 @@ var gulp = require('gulp'),
 	uglify = require('gulp-uglify');
 
 gulp.task('default',function(){
-	console.log('Hello World');
+	gulp.src();
 });
  
 gulp.task('compress', function() {
